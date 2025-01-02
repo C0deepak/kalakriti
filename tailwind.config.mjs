@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        raleway: ["var(--font-raleway)", "sans-serif"],
+        taviraj: ["var(--font-taviraj)", "serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

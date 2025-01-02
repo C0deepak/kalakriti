@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    img: "https://i.pinimg.com/736x/88/b8/e9/88b8e90f31018ee8f4e865ef3630370b.jpg",
+    alt: "Kalakriti Terracotta Flower Pot - Beautifully Handmade",
+    title: "Terracotta Flower Pot",
+    price: "₹ 699",
+    stars: "4.9",
+  },
+  {
+    id: 3,
+    img: "https://i.pinimg.com/736x/b8/8d/25/b88d254e22e77caa4df43f1486ca41fe.jpg",
+    alt: "Kalakriti Woven Storage Tokri - Durable and Ecofriendly",
+    title: "Woven Storage Tokri",
+    price: "₹ 599",
+    stars: "4.7",
+  },
+  {
+    id: 4,
+    img: "https://i.pinimg.com/736x/de/0a/f1/de0af1601f868bbc3c8695e979dbd6ed.jpg",
+    alt: "Kalakriti Decorative Hanging Tokri - Elegant and Handmade",
+    title: "Decorative Hanging Tokri",
+    price: "₹ 699",
+    stars: "4.9",
+  },
+  {
+    id: 8,
+    img: "https://i.pinimg.com/736x/9d/03/73/9d03730c560684a99b9ceedef1b6f493.jpg",
+    alt: "Kalakriti Wooden Kalakriti Face Stand - Artistic and Handmade",
+    title: "Wooden Katahkali Face",
+    price: "₹ 1,499",
+    stars: "4.8",
+  },
+  {
+    id: 5,
+    img: "https://i.pinimg.com/736x/3a/0b/dd/3a0bdde4370f887db05eb8c66bbd6f98.jpg",
+    alt: "Kalakriti Coconut Shell Tea Set - Sustainable and Unique",
+    title: "Coconut Shell Tea Set",
+    price: "₹ 399",
+    stars: "4.8",
+  },
+  {
+    id: 6,
+    img: "https://i.pinimg.com/736x/6b/56/88/6b5688cd401e04103f4053763f7abb65.jpg",
+    alt: "Kalakriti Coconut Shell Bowl Set - Ecofriendly and Stylish",
+    title: "Coconut Shell Bowl Set",
+    price: "₹ 749",
+    stars: "4.9",
+  },
+  {
+    id: 2,
+    img: "https://i.pinimg.com/736x/a2/93/7b/a2937b95f4e9e1ae2f8760b6d358b2cd.jpg",
+    alt: "Kalakriti Ceramic Planter - Handcrafted and Stylish",
+    title: "Ceramic Planter",
+    price: "₹ 849",
+    stars: "4.8",
+  },
+  {
+    id: 7,
+    img: "https://i.pinimg.com/736x/d8/cf/4c/d8cf4c68605c71e4674dac7077c224fc.jpg",
+    alt: "Kalakriti Clay Ganesha Statue - Handmade with Love",
+    title: "Clay Ganesha Statue",
+    price: "₹ 1,199",
+    stars: "4.9",
+  },
+];
+
+export default products;

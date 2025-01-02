@@ -1,0 +1,94 @@
+.embla {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    --slide-height: 100%;
+    --slide-spacing: 16px;
+    --slide-size: 100%;
+}
+
+.embla__viewport {
+    overflow: hidden;
+    height: 100%;
+}
+
+.embla__container {
+    display: flex;
+    height: 100%;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla__slide {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+    background-image: url('../../public/img/texture.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.embla__slide__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--slide-height);
+    user-select: none;
+}
+
+.embla__controls {
+    position: absolute;
+    width: full;
+    bottom: 32px;
+    right: 32px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+
+    @media (max-width: 720px) {
+        bottom: 16px;
+        right: 8px;
+    }
+}
+
+.embla__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.embla__button {
+    -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 28px;
+    height: 28px;
+    border: 2px solid #222;
+    z-index: 1;
+    border-radius: 50%;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.embla__button:disabled {
+    color: #22222269
+}
+
+.embla__button__svg {
+    width: 35%;
+    height: 35%;
+}
