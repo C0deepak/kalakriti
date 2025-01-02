@@ -12,7 +12,7 @@ import { Search, Send } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="font-raleway">
+    <div className="font-raleway bg-white text-neutral-900">
       <div className="w-full mb-12 md:mb-16">
         <Image
           src={banner1}

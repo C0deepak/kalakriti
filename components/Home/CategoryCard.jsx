@@ -8,7 +8,7 @@ const CategoryCard = ({ img, alt, title, text }) => {
                 src={img}
                 alt={alt}
             />
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col gap-2 items-center">
                 <h4 className="font-taviraj font-medium text-lg text-center">{title}</h4>
                 <p className='text-center'>{text}</p>
             </div>
